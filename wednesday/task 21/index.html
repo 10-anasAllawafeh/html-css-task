@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task #21</title>
+    <style>
+        body{
+            margin: 10px 1200px 0px 10px;
+        }
+
+        p{
+            border: 4px;
+            border-style: solid;
+            border-color: blue;
+        }
+        #p2{
+            border: 4px;
+            border-style: solid;
+            border-top-color: blue;
+            border-right-color: red;
+            border-bottom-color: yellow;
+            border-left-color: green;
+        }
+        div{
+            border-color: green;
+        }
+        div p{
+            border: 4px;
+            border-style: solid;
+            border-color: inherit;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+   <p id="P1">A Solid blue border</p> 
+   <p id="p2">A Solid multicolor border</p>
+   <div>
+       <p>A Solid inherited color border</p>
+   </div>
+</body>
+</html>
