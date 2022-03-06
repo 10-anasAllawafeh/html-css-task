@@ -18,19 +18,50 @@
            
        }  
        h1{
-           width: 25%;
-           height: 25%;
+           position: relative;
+           width: 10%;
+           height: 10%;
            color: black;
            text-align: center;
-           padding-top: 2%;
-           padding-bottom: 2%;
-           margin-top: 25%;
-           margin-left: 40%;
+           margin-top: 27.5%;
+           margin-left: 47%;
            animation-name: got;
            animation-duration: 2s;
+           transition: all .3s;
+           overflow: hidden;
+           z-index: 1;
+           border-radius: 25%;}
+h1::after {
+           content: '';
+           position: absolute;
+           bottom: -7%;
+    left: -12.5%;
+    width: 122%;
+    height: 106%;
+           background-color: lightblue;
+           border-radius: 10rem;
+           z-index: -2;
+}
+h1::before {
+           content: '';
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           width: 0%;
+           height: 100%;
+           background-color: darken(lightblue, 15%);
+           transition: all .3s;
+           border-radius: 10rem;
+           z-index: -1;
+           }
+h1::hover {
+           color: #fff;}
+h1::before {
+           width: 100%;}
+           
 
 
-       }
+
     </style>
 </head>
 <body>

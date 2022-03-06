@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 30</title>
+    <style>
+        @keyframes d1{
+            from {padding-left : none }
+             to {padding-left: 200px;}   
+                     }
+        @keyframes d2{
+            from {padding-left: none; padding-bottom: none;}
+            to   {padding-left: 200px; padding-bottom: 200px;   }
+
+                     }     
+        div{
+            height: 75px;
+            width: 100px;
+            padding: 1%;
+        }
+        .d1{
+            background-color: blue;
+            animation-name: d1;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+
+        }
+        .d2{
+            background-color: pink;
+            animation-name: d2;
+            animation-duration: 2s;
+            animation-delay: 4s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>The Transition property</h1>
+    <p>Hover over the div element below,to see the transition effects</p> <br>
+
+    <div class="d1"></div>
+    <br>
+    <hr>
+    <div class="d2"></div>
+</body>
+</html>
