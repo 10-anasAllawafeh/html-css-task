@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 33</title>
+    <style>
+       body{
+            height: 100hv;
+            display: grid;
+            grid-area: auto auto auto /auto auto auto;
+            gap: 2%;
+            /*padding: 0% 2.5%;*/
+           }
+        
+        .d1{
+            height: 15vh;
+            background-color: black;
+            grid-template-columns: span 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            
+        }
+
+        .d2{
+            height: 50vh;
+            background-color: orange;
+            grid-template-columns: span 2 ;
+            grid-template-rows: 1;
+            grid-column-start: 1; grid-column-end: 3;
+            grid-row-start: 2;
+        }
+
+        .d3{
+            height: 50vh;
+            background-color: green;
+            grid-column-start: 3; 
+            grid-row-start: 2;
+            
+        }
+
+        .d4{
+            height: 25vh;
+            background-color: blue;
+            grid-template-columns: span 3;
+            grid-row-start: 3;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+    <div class="d4"></div>
+</body>
+</html>
