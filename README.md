@@ -4,8 +4,9 @@
 ![personal pic](./profile.png)
 
 Hi,My name is **Anas** , I am a web developer student at Orange coding academy.
+I am one of the first students in the academy in **Aqaba city**
 
-Here I will write some little pit about my self :
+Down here I will sort some info about myself 
 
 
 ## Objective
@@ -16,16 +17,16 @@ A full Stack Web Developer position in an ampitious Company to improve and gain 
 ## Experience
 
 * 2018-2019
-:Materials Resistance And soil Testing Engineer
+: Materials Resistance And soil Testing Engineer
 
 * 2019-2021
-:Safety Engineer
+: Safety Engineer
 
 
 ## Education
 
 * 2012-2017
-:B.A in **Mining Engineer** From Al- hussein Bin Talal University
+: B.A in **Mining Engineer** From Al- hussein Bin Talal University
 
 ## Intrests
 
@@ -40,4 +41,4 @@ here are some of my social links
 * Discord UserName: 10- Anas Allawafeh#2604
 
 
-And That's It !!! don't hesitate to contact me any time you want :)
+*And That's It !!! don't hesitate to contact me any time you want :)*
